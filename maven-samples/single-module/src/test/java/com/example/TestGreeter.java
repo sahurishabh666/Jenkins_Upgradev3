@@ -29,7 +29,7 @@ public class TestGreeter {
   
   @Test
   public void intentionally_Failed() {
-    assetTrue(false);
+    assertTrue(false);
   }
   
   @Test
