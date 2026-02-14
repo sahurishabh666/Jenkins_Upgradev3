@@ -23,7 +23,7 @@ public class TestGreeter {
   @Test
   public void greetShouldIncludeTheOneBeingGreeted() {
     String someone = "World";
-
+    System.out.println("Checking the PollSCM feature of Jenkins!"); 
     assertThat(greeter.greet(someone), containsString(someone));
   }
 
